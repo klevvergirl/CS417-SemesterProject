@@ -29,13 +29,11 @@ The program should read the provided input documents, preprocess the data into s
 
 Each line in each report must take the form:
 
-x_(k) <= x < x_(k+1) ; y_(i) = C_(0) + (C_(1) * x) ; type
+$x_{k} \le x < x_{k+1} ; y_{i} = C_{0} + \left(C_{1} * x\right)$ ; type
 
-Where
-
-    --> x_(k) and x_(k+1) are the domain in which y_(k) is applicable
-    --> y_(k) is the k^th function
-    --> type is either least-squares or interpolation
+Where $x_{k}$ and $x_{k+1}$ are the domain in which $y_{k}$ is applicable, 
+$y_{k}$ is the $k^{th}$ function, 
+and 'type' is either least-squares or interpolation
 
 ## Example
 
@@ -58,7 +56,7 @@ If the program is built with the provided makefile and run as
 the output would be:
 
 ```
-we would end up with four output files
+We would end up with four output files
 
 sample-input-core-00.txt 
        0 <= x <=       30 ; y =      61.0000 +       0.6333 x ; interpolation
