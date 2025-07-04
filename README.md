@@ -14,12 +14,12 @@ Then outputs the processed data into another text file.
 
 The program is intended to be run from the command line like this:
 
-`java -cp` _path-to-ParseTempsDriver.jar_ _path-to-InputFile.txt_ ...
+`java` _absolute-path-to-ParseTempsDriver.jar_ _absolute-path-to-InputFile.txt_ ...
 
 where
 
-* _path-to-ParseTempsDriver.jar_ is the path to the jar file containing the compiled program.
-* _path-to-InputFile.txt_ ... are paths to documents in plain text (ASCII) that will be read for processing.
+* _absolute-path-to-ParseTempsDriver.jar_ is the path to the jar file containing the compiled program.
+* _absolute-path-to-InputFile.txt_ ... are paths to documents in plain text (ASCII) that will be read for processing.
 
 Multiple text files have been provided in the directory `testData`.
 
