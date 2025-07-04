@@ -10,7 +10,7 @@ public class TemperatureParser
     /**
      * A pair of values where:
      * <ul>
-     *   <li> _step_ attribute represents the time at which the readind was
+     *   <li> _step_ attribute represents the time at which the reading was
      *        taken.
      *   </li>
      *   <li> _readings_ is a vector with _n_ temperature readings,
