@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": ["C:\Users\dillo\_github\CS417-SemesterProject\src\test\testfiles\sensors-2018.12.26.txt"]
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
